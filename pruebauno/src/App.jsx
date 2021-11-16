@@ -5,9 +5,10 @@ import Formulario from './components/Formulario';
 
 function App() {
   return (
-    <div className="App mt-5">
+    <div className="App mt-5 bttn-2">
       <Hola></Hola>
-      <Temperatura></Temperatura>
+      {/*<Temperatura></Temperatura>  "Esto es para que no salga
+      vamos a continuar con el curso y no se quiere borrar nada."*/}
       <Formulario></Formulario>
     </div>
   );
